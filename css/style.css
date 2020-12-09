@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+
+html, body {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+/* Titre */
+.title-content {
+    background: #008a12;
+    color: #eee;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 30px;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 60px;
+}
+
+/* Menu nav */
+.nav-content ul {
+    display: flex;
+    flex-direction: row;
+    background: #008a12;
+    justify-content: center;
+    padding: 10px;
+}
+
+.nav-content ul li {
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.nav-content ul li a {
+    text-decoration: none;
+    color: #eee;
+    font-size: 18px;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+}
+
+.nav-content ul li a:hover {
+    background: #00690d;
+}
+
+.nav-content ul li a.a-un {
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.nav-content ul li a.a-deux {
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* Contenue de la page */
+.page-content {
+    text-align: center;
+}
+
+.page-content .text-presentation {
+    margin: 50px;
+}
+
+.page-content .hr-un {
+    border: 2px solid #008a12;
+    width: 300px;
+    margin-bottom: 50px;
+}
+
+.view-menu {
+    display: inline-block;
+    background: #008a12;
+    padding: 10px 0 10px 0;
+    border-radius: 15px;
+}
+
+.view-menu a {
+    text-decoration: none;
+    color: #eee;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px 10px 20px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.view-menu a:hover {
+    background: #00690d;
+}
+
+/* Fin de page */
+footer {
+    display: table-row;
+    height: 1px;
+}
+
+footer .footer-content {
+    background: #545454;
+    border-radius: 100px;
+    text-align: center;
+    width: 700px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+footer .footer-content h2 {
+    color: #eee;
+    padding: 20px;
+    font-size: 17px;
+}
