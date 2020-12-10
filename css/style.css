@@ -96,8 +96,28 @@ html, body {
     transition: 0.3s;
 }
 
+.discover-mcsoup {
+    display: inline-block;
+    background: #8a3500;
+    padding: 10px 0 10px 0;
+    border-radius: 15px;
+}
+
+.discover-mcsoup a {
+    text-decoration: none;
+    color: #eee;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px 10px 20px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
 .view-menu a:hover {
     background: #00690d;
+}
+
+.discover-mcsoup a:hover {
+    background: #7a2f00;
 }
 
 /* Fin de page */
